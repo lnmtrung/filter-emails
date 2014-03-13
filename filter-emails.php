@@ -6,6 +6,7 @@
   </head>
   <body>	
 	<?php
+		// Load data and filter email
 		function readCSV($csvFile){
 			$file_handle = fopen($csvFile, 'r');
 			while (!feof($file_handle) ) {
