@@ -23,7 +23,6 @@
 			return $values;
 		}
 		// Set path to CSV file
-		//$source = 'elle-list-active.csv';
 		$source = 'marry3-dot-3-active.csv';
 		$array1 = readCSV($source);
 		$filter = 'marry3-opened.csv';
